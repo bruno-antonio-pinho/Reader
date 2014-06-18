@@ -17,8 +17,8 @@
 #define PACKET0_S0_SIZE                  (0UL)  //!< S0 size in bits
 #define PACKET0_PAYLOAD_SIZE             (0UL)  //!< payload size in bits
 #define PACKET1_BASE_ADDRESS_LENGTH      (4UL)  //!< base address length in bytes
-#define PACKET1_STATIC_LENGTH            (10UL)  //!< static length in bytes
-#define PACKET1_PAYLOAD_SIZE             (10UL)  //!< payload size in bytes
+#define PACKET1_STATIC_LENGTH            (11UL)  //!< static length in bytes
+#define PACKET1_PAYLOAD_SIZE             (11UL)  //!< payload size in bytes
 
 void radio_configure(uint32_t tx, uint32_t ptx)
 {
